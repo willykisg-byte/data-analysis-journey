@@ -46,3 +46,4 @@ The bar chart below shows profit by category:
 ## 🚀 Author
 
 * Your Name
+Willy Kisiang'ani
