@@ -31,6 +31,15 @@ The bar chart below shows profit by category:
 
 ![Profit Chart](outputs/profit_chart.png)
 
+### Profit by Category
+![Profit by Category](outputs/profit_by_category.png)
+
+### Revenue by State
+![Revenue by State](outputs/state_revenue.png)
+
+### Monthly Sales Trend
+![Monthly Sales Trend](outputs/monthly_sales.png)
+
 ## 💡 Business Recommendations
 
 * Reduce operational costs to improve profit margins
