@@ -17,6 +17,22 @@ The dataset includes:
 * Removed missing values
 * Ensured consistent formatting
 
+## 🤖 Machine Learning Model
+Built a machine learning model to predict sales revenue.
+
+### Improvements:
+- Switched from Linear Regression to Random Forest
+- Added feature engineering (Month extraction)
+- Encoded categorical variables (Category & Sub-Category)
+
+### Results:
+- Initial profit prediction model performed poorly
+- Reframed problem to revenue prediction
+- Achieved 24% model accuracy (R² score)
+
+### Insight:
+Revenue is more predictable than profit due to lower variability.
+
 ## 📊 Key Insights
 
 * Total Revenue: 431,502
