@@ -52,6 +52,11 @@ The bar chart below shows profit by category:
 * Pandas
 * Matplotlib
 
+## 📊 Feature Importance
+
+The chart below shows which factors most influence revenue prediction:
+
+![Feature Importance](outputs/feature_importance.png)
 ## 🚀 Author
 
 Willy Kisiang'ani
