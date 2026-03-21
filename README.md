@@ -1,78 +1,78 @@
-# 📊 Sales Data Analysis Project
+📊 Data Analysis & Machine Learning Project
+🚀 Overview
 
-## 📌 Overview
+This project analyzes sales data and builds a machine learning model to predict profit.
 
-This project analyzes sales data to uncover insights about revenue, profit, and product performance.
+It demonstrates a complete data workflow:
 
-## 📁 Dataset
+Data cleaning and preprocessing
+Exploratory data analysis (EDA)
+Data visualization
+Machine learning model building
+Feature importance analysis
+🎯 Business Problem
 
-The dataset includes:
+Businesses need to understand what drives profit.
 
-* Orders data
-* Order details
-* Sales targets
+This project predicts profit based on:
 
-## 🧹 Data Cleaning
+Order details
+Product categories
+Time trends
+📊 Key Insights
+Madhya Pradesh generates the highest revenue
+Clothing is the most profitable category
+Sales show clear monthly trends
+📈 Visualizations
+Profit by Category
 
-* Removed missing values
-* Ensured consistent formatting
 
-## 🤖 Machine Learning Model
-Built a machine learning model to predict sales revenue.
 
-### Improvements:
-- Switched from Linear Regression to Random Forest
-- Added feature engineering (Month extraction)
-- Encoded categorical variables (Category & Sub-Category)
 
-### Results:
-- Initial profit prediction model performed poorly
-- Reframed problem to revenue prediction
-- Achieved 24% model accuracy (R² score)
+Revenue by State
 
-### Insight:
-Revenue is more predictable than profit due to lower variability.
 
-## 📊 Key Insights
 
-* Total Revenue: 431,502
-* Total Profit: 23,955
-* Clothing is the most profitable category
-* Furniture is the least profitable category
-* Highest sales come from Madhya Pradesh, especially Indore
 
-## 📈 Visualization
+Monthly Sales Trend
 
-The bar chart below shows profit by category:
 
-![Profit Chart](outputs/profit_chart.png)
 
-### Profit by Category
-![Profit by Category](outputs/profit_by_category.png)
 
-### Revenue by State
-![Revenue by State](outputs/state_revenue.png)
+Feature Importance
 
-### Monthly Sales Trend
-![Monthly Sales Trend](outputs/monthly_sales.png)
 
-## 💡 Business Recommendations
 
-* Reduce operational costs to improve profit margins
-* Focus on scaling Clothing category
-* Improve marketing and pricing strategy for Furniture
 
-## 🛠️ Tools Used
+🤖 Machine Learning Model
+Model: Random Forest Regressor
+Target: Profit
+Features:
+Order Amount
+Quantity
+Month
+Encoded Categories
+📊 Model Performance
+R² Score: ~0.24
+⚠️ Limitations & Improvements
+Model accuracy is moderate due to limited features
+Future improvements:
+Hyperparameter tuning
+More feature engineering
+Larger dataset
+🛠️ Tech Stack
+Python
+Pandas
+Matplotlib
+Scikit-learn
+📂 Project Structure
 
-* Python
-* Pandas
-* Matplotlib
-
-## 📊 Feature Importance
-
-The chart below shows which factors most influence revenue prediction:
-
-![Feature Importance](outputs/feature_importance.png)
+data-analysis-journey/
+│
+├── data/
+├── outputs/
+├── scripts/
+├── README.mdpng)
 ## 🚀 Author
 
 Willy Kisiang'ani
