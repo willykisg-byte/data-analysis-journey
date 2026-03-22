@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load("model.pkl")
+model = joblib.load("scripts/model.pkl")
 
 # Title
 st.set_page_config(page_title="Profit Predictor", layout="centered")
