@@ -73,3 +73,7 @@ feature_importance_df.head(10).plot(
 plt.tight_layout()
 plt.savefig("../outputs/feature_importance.png")
 plt.show()
+
+import joblib
+
+joblib.dump(model, "model.pkl")
