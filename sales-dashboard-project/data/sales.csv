@@ -1,0 +1,9 @@
+Order ID,Order Date,Category,Sub-Category,Sales,Quantity,Profit
+1,01-01-2023,Furniture,Chairs,200,2,20
+2,05-01-2023,Technology,Phones,500,1,80
+3,10-02-2023,Office Supplies,Binders,150,3,15
+4,15-02-2023,Furniture,Tables,300,1,-20
+5,20-03-2023,Technology,Laptops,1200,1,200
+6,25-03-2023,Office Supplies,Paper,50,5,5
+7,01-04-2023,Furniture,Chairs,220,2,25
+8,05-04-2023,Technology,Accessories,80,2,10
