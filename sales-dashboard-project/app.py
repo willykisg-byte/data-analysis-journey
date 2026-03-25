@@ -2,7 +2,12 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-df = pd.read_csv("data/sales_data.csv")
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+data_path = os.path.join(BASE_DIR, "data", "sales_data.csv")
+
+df = pd.read_csv(data_path)
 
 # LOAD MODEL
 model = joblib.load("model/model.pkl")
