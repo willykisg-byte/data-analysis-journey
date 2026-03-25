@@ -41,3 +41,6 @@ if st.button("🔮 Predict Profit"):
         st.success(f"💵 Estimated Profit: ${prediction:.2f}")
     else:
         st.error(f"📉 Estimated Loss: ${prediction:.2f}")
+
+        st.subheader("📊 Feature Importance")
+st.image("scripts/feature_importance.png")
