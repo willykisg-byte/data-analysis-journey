@@ -1,16 +1,18 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
 import os
 
 BASE_DIR = os.path.dirname(__file__)
-data_path = os.path.join(BASE_DIR, "data", "sales_data.csv")
 
+# LOAD DATA
+data_path = os.path.join(BASE_DIR, "data", "sales.csv")
 df = pd.read_csv(data_path)
 
 # LOAD MODEL
-model = joblib.load("model/model.pkl")
+model_path = os.path.join(BASE_DIR, "model", "model.pkl")
+model = joblib.load(model_path)
+
 
 # PAGE CONFIG
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
